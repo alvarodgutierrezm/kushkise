@@ -1,4 +1,3 @@
-
 const currencys = ['CLP', 'COP', 'PEN', 'MXN', 'USD'];
 
 function selectCurrency(currency){
@@ -133,7 +132,7 @@ function header() {
 
                     <div class="dropdown-cart-action">
                         <a href="cart.html" class="btn btn-primary">Ver Carrito</a>
-                        <a href="checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i class="icon-long-arrow-right"></i></a>
+                        <button onclick="kushkiCheckout()" id="checkout_btn" class="btn btn-outline-primary-2 btn-order btn-block" >CHECKOUT</button>
                     </div><!-- End .dropdown-cart-total -->
                 </div><!-- End .dropdown-menu -->
             </div><!-- End .cart-dropdown -->
